@@ -9,8 +9,8 @@ pacman::p_load(
 
 # Renderizacao de fontes
 font_family <- "STIX Two Text"
-font_add_google(font_family)
-showtext_auto()
+sysfonts::font_add_google(font_family)
+showtext::showtext_auto()
 
 
 
