@@ -13,6 +13,10 @@ sysfonts::font_add_google(font_family)
 showtext::showtext_auto()
 
 
+# Ler dados
+dados_saneamento <- readr::read_csv(
+  "data/dados_saneamento.csv.gz"
+)
 
 # Calcular o propensity score -----
 dados_ps <- dados_saneamento |>
